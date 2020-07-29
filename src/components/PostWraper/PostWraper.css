@@ -1,0 +1,15 @@
+.PostWrapper {
+    width: 50rem;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.distance {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .PostWrapper {
+        width: 90%;
+    }
+}

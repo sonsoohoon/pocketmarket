@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Header, PostWraper, MapContent, Footer} from "./components";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+    render() {
+        return (
+                <div>
+                    <Header></Header>
+                    <MapContent></MapContent>
+                    <PostWraper>500M이내</PostWraper>
+                    <PostWraper>1KM이내</PostWraper>
+                    <PostWraper>1.5KM이내</PostWraper>
+                    <Footer></Footer>
+                </div>
+        );
+    }
 }
 
 export default App;

@@ -1,0 +1,26 @@
+.mart-img {
+    width: 10rem;
+    height: 7rem;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.left {
+    text-align: center;
+}
+
+.like-img {
+    width: 2rem;
+    height: 1.5rem;
+}
+
+.mart-like-count , .comment-like-count {
+    border: blue 1px;
+    float: right;
+    padding-right: 1rem;
+    font-size: 0.5em;
+}
+
+.right-col {
+    font-size: small;
+}
